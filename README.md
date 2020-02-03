@@ -11,7 +11,7 @@
 
 1.  本题为一道娱乐题目，希望大家在做题的同时对密码学产生兴趣，并没有涉及加密原理，只是借用了火狐Mozilla的一个网页信息加密小游戏[Codemoji](https://codemoji.org/)
 2.  接下来是题解，没有文件，点开是一段base64，很常见的加密，在线解base![Image text](https://github.com/13slie/XJUSEC2019/blob/master/image/%E6%89%B9%E6%B3%A8%202020-01-13%20171143.jpg?raw=true)
-3.  很明显的一个网站，后面是信息提示，也就是有关解密所需KEY的提示信息，真爱的颜色，因为是一道娱乐题，~~玩梗也是情有可原~~（误，所以是 :green_heart: ，解出flag![输入图片说明](https://images.gitee.com/uploads/images/2020/0202/155023_da88db64_5231620.jpeg "批注 2020-01-13 171209.jpg")
+3.  很明显的一个网站，后面是信息提示，也就是有关解密所需KEY的提示信息，真爱的颜色，因为是一道娱乐题，~~玩梗也是情有可原~~（误，所以是 :green_heart: ，解出flag![Image text](https://github.com/13slie/XJUSEC2019/blob/master/image/%E6%89%B9%E6%B3%A8%202020-01-13%20171209.jpg?raw=true)
 
 ### 0x02  Singer
 
