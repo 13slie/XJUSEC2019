@@ -7,12 +7,12 @@
 源码我会放在我的仓库里，WP的话会给出本次crypto方向上的做题思路
 
 
-#### 0x01  truelove
+### 0x01  truelove
 
 1.  本题为一道娱乐题目，希望大家在做题的同时对密码学产生兴趣，并没有涉及加密原理，只是借用了火狐Mozilla的一个网页信息加密小游戏[Codemoji](https://codemoji.org/)
 2.  接下来是题解，没有文件，点开是一段base64，很常见的加密，在线解base![输入图片说明](https://images.gitee.com/uploads/images/2020/0202/154857_844d277c_5231620.jpeg "批注 2020-01-13 171143.jpg")
 3.  很明显的一个网站，后面是信息提示，也就是有关解密所需KEY的提示信息，真爱的颜色，因为是一道娱乐题，~~玩梗也是情有可原~~（误，所以是 :green_heart: ，解出flag![输入图片说明](https://images.gitee.com/uploads/images/2020/0202/155023_da88db64_5231620.jpeg "批注 2020-01-13 171209.jpg")
-#### 0x02  Singer
+### 0x02  Singer
 
 1.  本题是nctf的一道题，但做了一些改变，但思路完全一致。
 2.  打开是个lrc文件，直接记事本打开就行，打开后是一段歌词，仔细观察会发现中间的逻辑
@@ -79,7 +79,7 @@ This is CTF
 This is NOT program  
 //flag  XJUSEC{Uarnicerockstar}  
 
-#### 0x03  RSA
+### 0x03  RSA
 
 1.  求解rsa问题，首先要了解什么是RSA加密，这里我给出两个介绍RSA的文章
 > https://my.oschina.net/grittan/blog/3022794  
@@ -87,7 +87,7 @@ https://www.freebuf.com/articles/others-articles/166049.html
 
 2.  相信在看过这两篇关于RSA加密介绍的文章之后，大家对RSA加密有基本的认识。  
 
-#####  babyrsa
+####  babyrsa
 
 ```
 Math is cool! Use the RSA algorithm to decode the secret message, c, p, q, and e are parameters for the RSA algorithm.
@@ -124,7 +124,7 @@ m = gmpy2.powmod(c,d,p*q)
 print (m)
 #m = 5577446633554466577768879988
 ```
-#####  white give
+####  white give
 
 ```
 n = 87924348264132406875276140514499937145050893665602592992418171647042491658461
@@ -164,7 +164,7 @@ m = gmpy2.powmod(c,d,p*q)
 print hex(m)[2:].decode('hex')
 #flag{RSA_256_b1ts_1s_Writ3_Give}
 ```
-#####  BADRSA
+####  BADRSA
 
 本题来源于nctf的childrsa
 但由于yafu的存在使得题目出现非预期解，此题目考察的知识点要比它看起来难上很多，原题解我会放在文末，感兴趣的话可以去看看
@@ -219,7 +219,7 @@ print (m)
 print hex(m)[2:].decode('hex')
 ```
 * * *
-下面是期望的题解
+###下面是NCTF官方WP期望的题解
 
 > 最近在看一些整数分解的算法，其中有一个就是`Pollard's p-1 method。`
 > 这里输入引用文本前几天又正好在先知社区上看到了一篇Pollard's rho algorithm的文章：
