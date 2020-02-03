@@ -16,7 +16,7 @@
 
 1.  本题是nctf的一道题，但做了一些改变，但思路完全一致。
 2.  打开是个lrc文件，直接记事本打开就行，打开后是一段歌词，仔细观察会发现中间的逻辑
-3.  
+ 
 >***Leonard Adleman says star***  
 
 Problem Makers is Problem Makers 
